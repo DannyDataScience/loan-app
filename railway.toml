@@ -1,0 +1,10 @@
+[build]
+  root = "./ml_bank_loan"
+  command = "pip install -r requirements.txt"
+  publish = "./ml_bank_loan"
+
+[serve]
+  command = "gunicorn ml_bank_loan.ml_bank_loan.wsgi:application --bind 0.0.0.0:8080"
+
+[env]
+  DJANGO_SETTINGS_MODULE = "ml_bank_loan.ml_bank_loan.settings"
