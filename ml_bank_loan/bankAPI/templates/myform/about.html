@@ -35,24 +35,83 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
-                <h1>About LoanApp</h1>
-                <p class="lead">LoanApp is a smart solution to quickly apply for small loans.</p>
+                <h1 class="display-4">About LoanApp</h1>
+                <p class="lead text-secondary mb-4">An intelligent solution for rapid loan approvals powered by data science.</p>
                 <p>
-                    Our app uses a machine learning model to predict whether your loan will be approved or rejected based on several factors, 
-                    including your income, loan amount, credit history, and more. Here's how it works:
+                    <strong>LoanApp</strong> is a project showcasing my expertise in data science and machine learning, designed to streamline loan applications and enhance the approval process. This app highlights advanced techniques that are essential in real-world finance applications and serves as an example of my ability to create practical, data-driven solutions.
+                </p>
+
+                <h3>How LoanApp Works</h3>
+                <p>
+                    LoanApp provides instant predictions on loan applications by analyzing submitted data and assessing the likelihood of approval. The process is simple yet sophisticated, involving several key stages:
                 </p>
                 <ul>
-                    <li><strong>Step 1:</strong> Fill out the loan application form with your details.</li>
-                    <li><strong>Step 2:</strong> Our app processes the data using One Hot Encoding and scales the features.</li>
-                    <li><strong>Step 3:</strong> We apply a trained machine learning model to predict the loan approval status.</li>
-                    <li><strong>Step 4:</strong> You will get an immediate response on whether your loan is <em>Approved</em> or <em>Rejected</em>.</li>
+                    <li><strong>Data Collection:</strong> User submits personal and financial data, including income, loan amount, and credit history through a structured form.</li>
+                    <li><strong>Data Processing:</strong> Data is preprocessed with <em>One Hot Encoding</em> to prepare for accurate model input.</li>
+                    <li><strong>Scaling:</strong> Input data is standardized to ensure compatibility with the trained model, improving prediction accuracy.</li>
+                    <li><strong>Prediction:</strong> A pre-trained machine learning model assesses the data and returns an approval or rejection status based on a set threshold.</li>
+                    <li><strong>Immediate Feedback:</strong> Users are instantly informed about their application’s status, providing a seamless and efficient experience.</li>
                 </ul>
-                <p>We ensure fast and accurate predictions based on data-driven models.</p>
+
+                <h3>Technical Highlights</h3>
+                <p>This project demonstrates critical technical skills in machine learning and web application development, including:</p>
+                <ul>
+                    <li><strong>REST API Development:</strong> Built with Django Rest Framework, ensuring secure and scalable interactions suitable for future expansion.</li>
+                    <li><strong>Data Preprocessing Automation:</strong> Utilizes <em>Joblib</em> to manage transformations, ensuring consistency in predictions.</li>
+                    <li><strong>Model Integration:</strong> Implements a pre-trained model and scaler, allowing real-time predictions in line with trained data parameters.</li>
+                </ul>
+
+                <h3>Why LoanApp?</h3>
+                <p>
+                    LoanApp is a demonstration of how machine learning can transform decision-making processes in finance. Developed with precision and clarity, this app showcases my ability to create reliable, efficient solutions. LoanApp also exemplifies the deployment of data-driven models into a web framework, a crucial skill for scalable applications.
+                </p>
+
+                <div class="mt-5">
+                    <h4>Features for Recruiters</h4>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">End-to-end machine learning model deployment in Django.</li>
+                        <li class="list-group-item">Secure and scalable API using Django Rest Framework.</li>
+                        <li class="list-group-item">Real-time data processing and consistent prediction outputs.</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start mt-5 shadow-sm">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Connect with me</h5>
+                    <p>Follow me on social media to stay updated on my latest projects and insights in data science.</p>
+                    <a href="https://www.linkedin.com/in/danielaguilargarcia/" target="_blank" class="btn btn-outline-dark btn-floating m-1" role="button">
+                        <i class="bi bi-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/DannyDataScience/" target="_blank" class="btn btn-outline-dark btn-floating m-1" role="button">
+                        <i class="bi bi-github"></i> GitHub
+                    </a>
+                    <a href="https://x.com/Danny_Analytics" target="_blank" class="btn btn-outline-dark btn-floating m-1" role="button">
+                        <i class="bi bi-twitter"></i> Twitter
+                    </a>
+                </div>
+
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Contact</h5>
+                    <p>If you'd like to discuss a project or collaboration, feel free to reach out.</p>
+                    <p>Email: <a href="mailto:daniel272aguilar@gmail.com">daniel272aguilar@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 LoanApp. All rights reserved.
+        </div>
+    </footer>
+
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
+
